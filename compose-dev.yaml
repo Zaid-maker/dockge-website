@@ -1,6 +1,6 @@
 services:
   dockge-website:
-    image: php:8.1-apache
+    image: php:8.3-apache
     restart: unless-stopped
     ports:
       - 5002:80
